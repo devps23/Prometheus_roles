@@ -2,4 +2,5 @@
   ansible.builtin.unarchive:
     src: https://github.com/prometheus/prometheus/releases/download/v{{ version }}/prometheus-{{ version }}.linux-amd64.tar.gz
     dest: /opt
+    remote_src: yes
 
