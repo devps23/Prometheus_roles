@@ -20,7 +20,7 @@ pipelines:
           type: success
           allow_only_on_success: false
         jobs:
-          terraform-init:
+          terraform-apply:
             timeout: 0
             tasks:
             - exec: { command: terraform, arguments: [ "init" ], run_if: passed }
