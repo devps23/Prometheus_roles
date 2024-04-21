@@ -12,7 +12,7 @@
 
 //create Prometheus role
 resource "aws_iam_role" "role" {
-  name = "Prometheus - role"
+  name = "Prometheus-role"
   assume_role_policy = jsonencode({
 
     Statement = [
@@ -28,6 +28,6 @@ resource "aws_iam_role" "role" {
   })
 
   tags = {
-    name = "Prometheus - role"
+    name = "Prometheus-role"
   }
 }
