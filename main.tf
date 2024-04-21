@@ -1,5 +1,4 @@
 module "demo" {
   source = "./modules/app"
-
-  tools_name = var.tagname
+  tools_name = var.toolsname
 }
