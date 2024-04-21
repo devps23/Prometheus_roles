@@ -10,7 +10,7 @@
 //  name = "allow-all"
 //}
 
-create Prometheus role
+//create Prometheus role
 resource "aws_iam_role" "role" {
   name = "${var.tools_name} - role"
   assume_role_policy = jsonencode({
