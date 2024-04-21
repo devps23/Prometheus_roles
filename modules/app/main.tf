@@ -33,6 +33,6 @@ resource "aws_iam_role" "role" {
 }
 //it is a container
 resource "aws_iam_instance_profile" "test_profile" {
-  name = "instance-prometheus"
+  name = "Prometheus-role"
   role = aws_iam_role.role.name
 }
