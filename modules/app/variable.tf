@@ -1,3 +1,3 @@
 //variable "ami" {}
 //variable "instance_type" {}
-//variable "tools_name" {}
+variable "tools_name" {}
